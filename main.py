@@ -21,6 +21,6 @@ def main():
     texts = [item.find_element(by="xpath", value='./span').text for item in list_items] # Get the text of each <span> within <li>
 
     for text in texts:
-        print(text) # Print each text line by line 1
+        print(text) # Print each text line by line
 
 main()
